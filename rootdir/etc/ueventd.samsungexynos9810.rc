@@ -235,4 +235,4 @@
 /dev/goodix_fp            0660   system     system
 /dev/qbt2000_fd           0660   system     system
 /dev/qbt2000_ipc          0660   system     system
-/dev/qbtspi               0660   system     system	
+/dev/qbtspi               0660   system     system

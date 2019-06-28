@@ -78,13 +78,13 @@
         <item>236</item>
         <item>245</item>
         <item>245</item>
-        <item>255</item>
+        <item>254</item>
     </integer-array>
     <bool name="config_automatic_brightness_available">true</bool>
     <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">6000</integer>
     <integer name="config_screenBrightnessSettingMinimum">0</integer>
-    <integer name="config_screenBrightnessSettingMaximum">255</integer>
+    <integer name="config_screenBrightnessSettingMaximum">254</integer>
     <integer name="config_screenBrightnessSettingDefault">124</integer>
     <integer name="config_screenBrightnessDim">59</integer>
     <bool name="config_hotswapCapable">true</bool>
@@ -137,25 +137,21 @@
         <item>"/system/framework/boot.vdex"</item>
         <item>"/system/framework/arm64/boot-core-libart.oat"</item>
         <item>"/system/framework/boot-core-libart.vdex"</item>
-        <item>"/system/priv-app/SystemUI/oat/arm64/SystemUI.vdex"</item>
-        <item>"/system/priv-app/SystemUI/oat/arm64/SystemUI.odex"</item>
-        <item>"/system/lib64/libsurfaceflinger.so"</item>
     </string-array>
     <bool name="config_pinnerCameraApp">true</bool>
-    <bool name="config_pinnerHomeApp">true</bool>
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
     <bool name="config_cellBroadcastAppLinks">true</bool>
     <string name="config_radio_access_family">GSM|WCDMA|LTE</string>
     <bool name="config_animateScreenLights">true</bool>
     <integer name="config_fingerprintMaxTemplatesPerUser">4</integer>
     <integer-array name="config_longPressVibePattern">
-        <item>14</item>
+        <item>7</item>
     </integer-array>
     <integer-array name="config_virtualKeyVibePattern">
-        <item>14</item>
+        <item>7</item>
     </integer-array>
     <integer-array name="config_keyboardTapVibePattern">
-        <item>14</item>
+        <item>7</item>
     </integer-array>
     <bool name="config_setColorTransformAccelerated">true</bool>
     <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
@@ -164,6 +160,4 @@
     <string name="db_default_sync_mode" translatable="false">OFF</string>
     <string name="db_wal_sync_mode" translatable="false">OFF</string>
     <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
-    <integer name="config_deviceHardwareKeys">73</integer>
-    <integer name="config_deviceHardwareWakeKeys">73</integer>
 </resources>
